@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
-  before_action :basic_auth
+  # before_action :basic_auth
   before_action :devise_parameter_sanitizers, if: :devise_controller?
 
 
